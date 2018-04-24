@@ -9,6 +9,15 @@ html, body {
   overflow: auto;
 }
 
+#pictures {
+  margin-bottom: 20px
+}
+
+#description {
+  width: 641.55px !important;
+  margin-left: 12px
+}
+
 #app {
   min-height: 100%;
   overflow:auto;
