@@ -3,37 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/style.css">
-    <title>FEC Demo</title>
+    <link rel="stylesheet" href="/reservations.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Chairbnb</title>
   </head>
   <body>
-    <div id="Pictures"></div>
-    <div id="Reservations"></div>
-    <div id="Amenities"></div>
-    <div id="Reviews"></div>
+    <div id="pictures"></div>
+    <div id="otherStuffContainer">
+      <div id="reservation"></div>
+      <div id="description"></div>
+      <div id="Reviews"></div>
+    </div>
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
-    <script src="http://localhost:3001/app.js"></script>
-    <script src="http://localhost:3002/app.js"></script>
-    <script src="http://localhost:3003/app.js"></script>
-    <script src="http://localhost:3004/app.js"></script>
+    <script src="http://localhost:3000/bundle.js"></script>
+    <script src="http://localhost:4212/bundle.js"></script>
+    <script src="http://localhost:3002/bundle.js"></script>
+    <script src="http://localhost:3001/bundle.js"></script>
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
-    <script>
-      ReactDOM.render(
-        React.createElement(Pictures),
-        document.getElementById('Pictures')
-      );
-      ReactDOM.render(
-        React.createElement(Reservations),
-        document.getElementById('Reservations')
-      );
-      ReactDOM.render(
-        React.createElement(Amenities),
-        document.getElementById('Amenities')
-      );
-      ReactDOM.render(
-        React.createElement(Reviews),
-        document.getElementById('Reviews')
-      );
-    </script>
   </body>
 </html>
