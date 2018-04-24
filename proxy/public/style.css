@@ -1,0 +1,29 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+html, body {
+  margin: 12px;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+#app {
+  min-height: 100%;
+  overflow:auto;
+}
+
+.tour-view-enter {
+  opacity: 0.1;
+}
+
+.tour-view-enter.tour-view-enter-active {
+  opacity: 1;
+  transition: opacity 600ms ease-in;
+}
+
+#otherStuffContainer {
+  margin: auto;
+  width: 1048px
+}
